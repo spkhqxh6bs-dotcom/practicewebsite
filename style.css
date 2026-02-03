@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+.site-header { padding: 20px; border-bottom: 1px solid #ddd; }
+.nav a { margin-right: 12px; text-decoration: none; color: #333; }
+.nav a.active { font-weight: 700; text-decoration: underline; }
+
+.container { padding: 20px; max-width: 900px; margin: 0 auto; }
+
+.card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 12px 0; }
+.button { display: inline-block; padding: 10px 14px; border: 1px solid #333; border-radius: 8px; color: #333; text-decoration: none; background: #f6f6f6; }
+.button:hover { background: #eee; }
+
+label { display: block; margin-bottom: 12px; }
+input, textarea { width: 100%; padding: 10px; margin-top: 6px; box-sizing: border-box; }
+.note { font-size: 0.9rem; color: #555; }
+
+.site-footer { padding: 16px 20px; border-top: 1px solid #ddd; }
