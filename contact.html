@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Practice Website</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Contact</h2>
+
+    <form class="card" action="#" method="post">
+      <label>
+        Name
+        <input type="text" name="name" placeholder="Your name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" placeholder="you@email.com" required />
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="5" placeholder="Type here..." required></textarea>
+      </label>
+
+      <button class="button" type="submit">Send</button>
+      <p class="note">Note: This form won’t submit anywhere yet (practice only).</p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2026 Practice Site</small>
+  </footer>
+</body>
+</html>
